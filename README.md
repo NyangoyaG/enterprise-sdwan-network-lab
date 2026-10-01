@@ -325,58 +325,6 @@ Core-SW1 VRRP MASTER state
 Core-SW2 VRRP BACKUP state
 VRRP virtual gateway
 
-Additional evidence can be added under:
-
-evidence/
-Technologies Used
-Network & Security
-FortiGate
-FortiOS 7.4.x
-FortiGate SD-WAN
-SLA health monitoring
-NAT
-Firewall policies
-VRRP
-Routing & Switching
-MikroTik RouterOS
-IP routing
-VLANs
-LAN/WAN
-TCP/IP
-Gateway redundancy
-Simulation & Virtualization
-GNS3
-GNS3 VM
-QEMU
-VirtualBox
-VPCS
-Network Testing
-Ping
-SD-WAN diagnostics
-Packet capture
-Interface monitoring
-Connectivity testing
-Project Structure
-
-The GitHub repository is organized to separate the GNS3 project, configurations, documentation, and test evidence.
-
-enterprise-sdwan-network-lab/
-│
-├── README.md
-│
-├── enterprise-sdwan-topology-hd.png
-│
-├── gns3/
-│   └── Corporate_Network_Lab/
-│
-├── configs/
-│   ├── fortigate/
-│   ├── mikrotik/
-│   └── vpcs/
-│
-├── documentation/
-│
-└── evidence/
 Reproducing the Lab
 
 To reproduce this project, the following software and appliances are required:
@@ -438,12 +386,9 @@ Implemented and tested
  Internal client connectivity during failover
  Core-SW1 VRRP MASTER
  Core-SW2 VRRP BACKUP
-Additional testing
- Capture and document reverse ISP2 → ISP1 failover evidence
- Add final configuration exports for all VPCS clients
- Add selected lab screenshots under evidence/
+
 Author
-Geofrey Nyangoya Benson
+Geofrey Nyangoya
 
 IT Infrastructure | Network Administration | Cybersecurity
 
